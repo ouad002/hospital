@@ -1,0 +1,61 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<section id="about">
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="section-title">
+						<div class="section-subtitle"> A propos de nous </div>
+						<h2 class="section-main-title">
+							Tout sur <strong>Les Hopitaux</strong>
+						</h2>
+					</div>
+
+					<div class="about-item">
+						<p>Un hôpital est un établissement où les personnes malades ou blessées se rendent pour être soignées et guéries. Les hôpitaux offrent également des traitements pour les patients qui ne nécessitent pas de séjour prolongé, appelés ambulatoires. Les médecins et les infirmières y travaillent pour prodiguer des soins aux patients. En utilisant des technologies médicales avancées, les médecins parviennent à offrir des traitements efficaces pour les patients.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 offset-sm-2">
+				 <div class="about-box">
+				   <img src="{% static 'images/about-1.jpg' %}">
+				 </div>
+				</div>
+            </div>
+
+			<div class="row mt-5">
+				<div class="col-sm-4">
+				 <div class="about-boxx">
+				   <img src="{% static 'images/about1.jpg' %}">
+				 </div>
+				</div>
+				<div class="col-sm-6 offset-sm-2">
+				<div class="about-item mt-5">
+					<h4><span style="color:red">Tout sur </span> <span style="color:green"><b>Docteurs & infirmiers </b></span></h4>
+						<p>Dans un hôpital, il y a différents types de docteurs et d'infirmiers qui travaillent ensemble pour prodiguer des soins aux patients. Les docteurs peuvent avoir différentes spécialisations, tels que des médecins généralistes, des cardiologues, des chirurgiens, des pédiatres, des neurologues, des oncologues, entre autres. Les infirmiers peuvent également avoir différentes fonctions, comme des infirmiers de soins intensifs, des infirmiers de bloc opératoire, des infirmiers de soins généraux, des infirmiers psychiatriques, entre autres. Ensemble, ces professionnels de la santé travaillent pour offrir des soins de qualité aux patients et améliorer leur santé.</p>
+					</div>
+				</div>
+			</div>
+
+            <div class="row mt-5">
+				<div class="col-sm-6">
+				<div class="about-item mt-5">
+					<h4><span style="color:green">Tout sur </span> <span style="color:blue"><b>Personnels de Nettoyage </b></span></h4>
+						<p>Un nettoyeur d'hôpital, ou un opérateur de nettoyage, est un type de travailleur industriel ou domestique qui nettoie des maisons, des locaux commerciaux et qui nettoie également la plate-forme de l'hôpital. Un nettoyeur est quelqu'un qui enlève les déchets et nettoie les surfaces. Les nettoyeurs réparent parfois des choses et maintiennent leur équipement en bon état de fonctionnement.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4 offset-sm-2">
+				 <div class="about-box">
+				   <img src="{% static 'images/about2.jpg' %}">
+				 </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock%}
